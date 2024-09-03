@@ -18,7 +18,7 @@ public class EmptyView extends VerticalLayout {
     public EmptyView() {
         setSpacing(false);
 
-        Image img = new Image("images/empty-plant.png", "placeholder plant");
+        Image img = new Image("/images/empty-plant.png", "placeholder plant");
         img.setWidth("200px");
         add(img);
 
